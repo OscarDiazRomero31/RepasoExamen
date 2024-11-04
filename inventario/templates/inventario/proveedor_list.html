@@ -1,0 +1,6 @@
+<h1>Proveedores</h1>
+<ul>
+    {% for proveedor in proveedores %}
+        <li>{{ proveedor.nombre }} - Contacto: {{ proveedor.contacto }}</li>
+    {% endfor %}
+</ul>

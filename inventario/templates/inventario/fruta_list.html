@@ -1,0 +1,6 @@
+<h1>Frutas</h1>
+<ul>
+    {% for fruta in frutas %}
+        <li>{{ fruta.nombre }} - Categoría: {{ fruta.categoria.nombre }}</li>
+    {% endfor %}
+</ul>
